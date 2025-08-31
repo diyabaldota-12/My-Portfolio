@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body class=" bg-gray-900">
+<header class="flex justify-end items-center space-x-4 md:space-x-10 p-4 text-pink-300 fixed top-0 z-50 w-full shadow-lg bg-gray-900">
+       <html lang="en" class="scroll-smooth"> <div><a href="#home"   class=" hover:text-pink-700 scroll-smooth ">Home</a></div>
+        <html lang="en" class="scroll-smooth"><div><a href="#about"   class=" hover:text-pink-700 scroll-smooth ">About</a></div>
+        <html lang="en" class="scroll-smooth"><div><a href="#skills"  class=" hover:text-pink-700 scroll-smooth ">Skills</a></div>
+        <html lang="en" class="scroll-smooth"><div><a href="#project" class=" hover:text-pink-700 scroll-smooth ">Projects</a></div>
+        <html lang="en" class="scroll-smooth"><div><a href="#interests" class=" hover:text-pink-700 scroll-smooth ">Interests</a></div>
+        <div> <a href="DiyaBaldota_Resume.pdf" target="My Resume" class="hover:text-pink-400">
+        Resume
+      </a></div>
+      </header>
+<!-- Home Section -->
+<div id="home" class="px-10 md:px-20 py-20 flex flex-col md:flex-row justify-center items-center mt-40 mb-7 relative">
+  
+  <!-- Wide Card -->
+  <div class="relative bg-gray-800 p-10 rounded-2xl border-4 border-pink-400 w-full max-w-6xl shadow-[0_0_30px_rgba(244,114,182,0.6)] flex flex-row justify-between items-center">
+    
+    <!-- Info (Left Side) -->
+    <div class="max-w-xl">
+      <p class="text-pink-400 text-2xl">Hi, It's Me</p>
+      <h1 class="text-4xl md:text-5xl font-bold mt-2 text-pink-300">Diya Santosh Baldota</h1>
+      <p class="mt-4 text-red-300">
+        Aspiring Software Developer | B.Tech Student | FRONTEND DEVELOPER
+      </p>
+
+      <!-- Social Icons -->
+      <div class="flex gap-4 mt-6">
+        <a href="https://github.com/diyabaldota-12" 
+           class="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-cyan-400 hover:text-gray-900 transition">
+          <img src="github.png" alt="github">
+        </a>
+        <a href="https://www.linkedin.com/in/diya-baldota-684519288/" 
+           class="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-cyan-400 hover:text-gray-900 transition">
+          <img src="linkedin.png" alt="linkedin"/>
+        </a>
+      </div>
+    </div>
+
+    <!-- Cat + Grey Ring (Right Side) -->
+    <div class="relative w-64 h-64 flex items-center justify-center">
+      <!-- Grey Ring -->
+      <!-- <img src="grey-circle-icon-8.png" 
+           class="absolute inset-0 w-full h-full object-contain z-0" 
+           alt="circle background"> -->
+      <!-- Cat Gif -->
+      <img src="Black Cat Sticker by meowbox.gif" 
+           class="relative z-10 w-48 mt-44" 
+           alt="cat gif">
+    </div>
+  </div>
+</div>
+<!-- Home Section -->
+
+
+<!--About Section-->
+  <section id="about"  class="px-10 md:px-20 py-20 bg-gray-900 flex flex-col justify-center items-center ">
+   <div> <h2 data-aos="slide-right" class="text-3xl font-bold text-pink-400 mb-6">About Me</h2> </div>
+    <div><p data-aos="slide-right" data-aos-delay="200" class="text-gray-300 max-w-2xl">
+      I’m a B.Tech student and aspiring software developer with a passion for both frontend and backend development.  
+I enjoy creating user-friendly interfaces while also designing efficient backend systems with C++ and SQL.  
+Beyond web development, I’m deeply interested in game development and love exploring how interactive experiences are built.  
+Currently, I’m expanding my full-stack skills through projects like AirCommand (gesture-controlled system) and a stock portfolio tracker.
+
+    </p>
+    </div>
+   
+
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" data-aos="slide-right" class="px-10 md:px-20 py-20">
+  <h2 class="text-3xl font-bold text-pink-400 mb-6">Skills</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+
+    <!-- C++ -->
+    <div class="relative group flex flex-col items-center">
+      <img src="C++-Logo.wine.svg" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        C++
+      </p>
+    </div>
+
+    <!-- MySQL -->
+    <div class="relative group flex flex-col items-center">
+      <img src="MySQL-Logo.wine.svg" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        MySQL
+      </p>
+    </div>
+
+    <!-- HTML -->
+    <div class="relative group flex flex-col items-center">
+      <img src="imgbin_454a400ca987d4271e54045982ea3876.png" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        HTML
+      </p>
+    </div>
+
+    <!-- CSS -->
+    <div class="relative group flex flex-col items-center">
+      <img src="CSS.png" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        CSS
+      </p>
+    </div>
+
+    <!-- Tailwind CSS -->
+    <div class="relative group flex flex-col items-center">
+      <img src="tailwind css.png" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        Tailwind CSS
+      </p>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="relative group flex flex-col items-center">
+      <img src="js.png"  
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        JavaScript
+      </p>
+    </div>
+
+    <!-- Unity -->
+    <div class="relative group flex flex-col items-center">
+      <img src="unity.png" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        Unity
+      </p>
+    </div>
+
+    <!-- Blender -->
+    <div class="relative group flex flex-col items-center">
+      <img src="blender.png" 
+            class="w-20 h-20 md:w-40 md:h-40 lg:size-48 transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-lg">
+      <p class="absolute -bottom-6 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+        Blender
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Project Section -->
+<section id="project" data-aos="slide-right" class="px-10 md:px-20 py-20 bg-gray-900">
+  <h2 class="text-3xl font-bold text-pink-400 mb-6">Projects</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+<!--P1-->
+    <div data-aos="slide-right" data-aos-delay="200"  class="bg-gray-800 p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-100/10">
+  <h3 class="font-semibold text-xl mb-2 text-gray-200">Bouncy Ball</h3>
+  <p class="text-gray-300">A physics-based 2D game built in Unity using C#.</p>
+
+  <!-- Toggle Button -->
+  <button onclick="toggleCard(this)" class="text-pink-400 hover:underline mt-2 block">
+    View Project
+  </button>
+
+  <!-- Hidden content -->
+  <div class="hidden mt-4">
+    <p class="text-gray-400">A physics-based 2D arcade game built in Unity (C#) where players control a bouncing ball through increasingly challenging environments. Designed with intuitive mechanics and smooth physics simulation to test reflexes and timing.<br>
+
+    Key Features:<br>
+
+    ⚡ Realistic Physics Engine – Implemented gravity, friction, and collision detection for lifelike ball movement.<br>
+
+    🎯 Player Controls – Simple yet engaging controls for precision jumps and movement.<br>
+
+    🧩 Progressive Difficulty – Levels increase in complexity with moving platforms and obstacles.<br>
+
+    🌌 Minimalist Aesthetics – Clean, modern visuals for a distraction-free experience.<br>
+
+    🏆 Replay Value – Quick, fun, and addictive gameplay loop designed for replayability.</p>
+    <img src="Bouncy Ballz.png" alt="Bouncy Ball Screenshot" class="mt-3 rounded">
+    <a href="https://diya-616.itch.io/bouncyballz" target="_blank" class="text-cyan-400 hover:underline mt-2 block">
+      Play Game
+    </a>
+  </div>
+</div>
+
+<script>
+function toggleCard(button) {
+  const details = button.nextElementSibling;
+  details.classList.toggle("hidden");
+}
+</script>
+
+
+    <!--P2-->
+<div data-aos="slide-left" data-aos-delay="400" class="bg-gray-800 p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-100/10">
+  <h3 class="font-semibold text-xl mb-2 text-gray-200">Bank Transaction Analyzer</h3>
+  <p class="text-gray-300">A MySQL-powered system for tracking and analyzing bank transactions.</p>
+
+  <!-- Toggle Button -->
+  <button onclick="toggleCard(this)" class="text-pink-400 hover:underline mt-2 block">
+    View Project
+  </button>
+
+  <!-- Hidden content -->
+  <div class="hidden mt-4">
+    <p class="text-gray-400">
+      A financial analysis system built with MySQL for transaction tracking, fraud detection, and real-time alerts.<br><br>
+      Key Features:<br>
+      🗂 Normalized Database Design – Efficient relational schemas for handling thousands of records.<br>
+      🔍 Fraud Detection – SQL queries to identify suspicious activities.<br>
+      📊 Balance & Spending Alerts – Automated notifications for thresholds.<br>
+      ⏱ Optimized Performance – Indexed queries for fast data retrieval.<br>
+      🔐 Data Integrity – Ensured reliability with constraints and triggers.
+    </p>
+    <a href="https://github.com/diyabaldota-12/DBMS-SQL/tree/main/Banking%20Management%20System" target="_blank" class="text-cyan-400 hover:underline mt-2 block">View Project</a>
+  </div>
+</div>
+
+<!--P3-->
+<div data-aos="slide-right" data-aos-delay="200" class="bg-gray-800 p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-100/10">
+  <h3 class="font-semibold text-xl mb-2 text-gray-200">Loan Risk Assessment</h3>
+  <p class="text-gray-300">A credit evaluation system for assessing loan applicants.</p>
+
+  <!-- Toggle Button -->
+  <button onclick="toggleCard(this)" class="text-pink-400 hover:underline mt-2 block">
+    View Project
+  </button>
+
+  <!-- Hidden content -->
+  <div class="hidden mt-4">
+    <p class="text-gray-400">
+      A credit scoring and risk analysis project using SQL filters and borrower profiles.<br><br>
+      Key Features:<br>
+      📑 Borrower Profiles – Structured applicant data for risk evaluation.<br>
+      📊 Risk Score Calculation – Automated SQL formulas to determine loan eligibility.<br>
+      ✅ Loan Approval Automation – Faster, more accurate decisions.<br>
+      ⚡ Efficiency Boost – Reduced simulated default risk by 22%.<br>
+    </p>
+    <a href="https://github.com/diyabaldota-12/DBMS-SQL/tree/main/Loan%20Risk%20Assesment%20System" target="github link" class="text-cyan-400 hover:underline mt-2 block">View Project</a>
+  </div>
+</div>
+
+<!--P4-->
+<div data-aos="slide-right" data-aos-delay="400" class="bg-gray-800 p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-100/10">
+  <h3 class="font-semibold text-xl mb-2 text-gray-200">Portfolio Tracker</h3>
+  <p class="text-gray-300">SQL-based stock portfolio database for monitoring trades and performance.</p>
+
+  <!-- Toggle Button -->
+  <button onclick="toggleCard(this)" class="text-pink-400 hover:underline mt-2 block">
+    View Project
+  </button>
+
+  <!-- Hidden content -->
+  <div class="hidden mt-4">
+    <p class="text-gray-400">
+      A stock portfolio tracker with SQL for analyzing trades, sectors, and P&L.<br><br>
+      Key Features:<br>
+      📈 Transaction & Price History – Comprehensive data logging.<br>
+      💹 P&L Analysis – Automated profit and loss calculations.<br>
+      📊 Sector Exposure – Track investment distribution.<br>
+      ⚡ Scalable – Efficiently handled 10,000+ simulated trades.<br>
+    </p>
+    <a href="https://github.com/diyabaldota-12/DBMS-SQL/tree/main/Stock%20Portfolio%20Tracker" target="github link" class="text-cyan-400 hover:underline mt-2 block">View Project</a>
+  </div>
+</div>
+
+<!--P5-->
+<div data-aos="slide-right" data-aos-delay="200" class="bg-gray-800 p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-100/10">
+  <h3 class="font-semibold text-xl mb-2 text-gray-200">Mini Projects</h3>
+  <p class="text-gray-300">Small practice projects to strengthen logic and frontend skills.</p>
+
+  <!-- Toggle Button -->
+  <button onclick="toggleCard(this)" class="text-pink-400 hover:underline mt-2 block">
+    View Project
+  </button>
+
+  <!-- Hidden content -->
+  <div class="hidden mt-4">
+    <ul class="list-disc list-inside text-gray-400 space-y-2">
+      <li>🎮 Tic Tac Toe – Classic grid-based game.</li>
+      <li>✊ Rock Paper Scissors – Fun logic-based game with randomization.</li>
+      <li>💱 Currency Converter – Real-time conversion with user inputs.</li>
+    </ul>
+    <div class="flex flex-row justify-center gap-4">
+    <img src="currency converter.png" alt="Mini Projects Screenshot" class="mt-3 rounded size-56">
+    <img src="rock paper scissors.png" alt="Mini Projects Screenshot" class="mt-3 rounded size-56">
+    <img src="tic tac toe.png" alt="Mini Projects Screenshot" class="mt-3 rounded size-56">
+    </div>
+    <a href="https://github.com/diyabaldota-12/mini-projects" target="github link" class="text-cyan-400 hover:underline mt-2 block">View Project</a>
+  </div>
+</div>
+<!-- P6 -->
+<div data-aos="slide-right" data-aos-delay="200"  
+     class="bg-gray-800 p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-100/10">
+  <h3 class="font-semibold text-xl mb-2 text-gray-200">Personal Portfolio Website</h3>
+  <p class="text-gray-300">
+    A fully responsive and interactive portfolio website built with 
+    HTML, Tailwind CSS, and JavaScript
+  </p>
+
+  <!-- Toggle Button -->
+  <button onclick="toggleCard(this)" class="text-pink-400 hover:underline mt-2 block">
+    More Info
+  </button>
+
+  <!-- Hidden Content -->
+  <div class="hidden mt-4">
+    <p class="text-gray-400"><br>
+      ✨ Features:<br>
+      • Sticky navigation bar with smooth scrolling<br>
+      • Animated sections using AOS (fade, slide, delay effects)<br>
+      • Responsive grid system for skills and projects<br>
+      • Custom hover effects with shadows and transitions<br>
+      • Minimalist design highlighting both frontend & backend passion<br>
+    </p>
+  </div>
+</div>
+
+
+
+  </div>
+</section>
+
+  <!-- Interests Section -->
+<section id="interests" class="px-10 md:px-20 py-20">
+  <h2 class="text-3xl font-bold text-pink-400 mb-6">Interests</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+    
+    <div data-aos="slide-right" data-aos-delay="200" class="p-6 bg-gray-800 rounded-lg text-gray-300 hover:bg-gray-700 transition duration-300">
+      <h3  class="font-semibold text-xl text-pink-300 mb-2 ">Web Development & UI/UX</h3>
+      <p>Designing and building user-friendly websites with clean interfaces.</p>
+    </div>
+    
+    <div data-aos="slide-right" data-aos-delay="400" class="p-6 bg-gray-800 rounded-lg text-gray-300 hover:bg-gray-700 transition duration-300">
+      <h3   class="font-semibold text-xl text-pink-300 mb-2">Game Development</h3>
+      <p>Exploring Unity and Blender to create fun and interactive experiences.</p>
+    </div>
+    
+    <div data-aos="slide-right" data-aos-delay="600"  class="p-6 bg-gray-800 rounded-lg text-gray-300 hover:bg-gray-700 transition duration-300">
+      <h3  class="font-semibold text-xl text-pink-300 mb-2">Learning New Technologies</h3>
+      <p>Always excited to pick up emerging tools and frameworks.</p>
+    </div>
+    
+    <div data-aos="slide-right" data-aos-delay="200"  class="p-6 bg-gray-800 rounded-lg text-gray-300 hover:bg-gray-700 transition duration-300">
+      <h3  class="font-semibold text-xl text-pink-300 mb-2">Sports</h3>
+      <p>Staying active and competitive through games and physical activities.</p>
+    </div>
+    
+    <div data-aos="slide-right" data-aos-delay="400"  class="p-6 bg-gray-800 rounded-lg text-gray-300 hover:bg-gray-700 transition duration-300">
+      <h3  class="font-semibold text-xl text-pink-300 mb-2">Traveling</h3>
+      <p>Exploring new places and cultures for inspiration and creativity.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="px-10 md:px-20 py-20 text-center bg-gray-900">
+  <h2 class="text-3xl font-bold text-pink-400 mb-6">Contact Me</h2>
+
+  <p class="text-xl text-gray-200 font-semibold">Diya Santosh Baldota</p>
+  <p class="text-lg text-gray-400 mb-6 "><a href="mailto:diyabalota12@gmail.com" >📧 diyabaldota12@gmail.com</a></p>
+
+  <p class="italic text-gray-300 text-lg">"I believe in learning by building — every project is a new chance to grow."</p>
+</section>
+
+
+
+    <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-gray-400 hover:text-pink-400">
+    © 2025 Diya Santosh Baldota. All rights reserved.
+  </footer>
+
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,   // animation duration
+      easing: 'ease-in-out', 
+      once: true        // animate only once
+    });
+  </script>
+</body>
+</html>
